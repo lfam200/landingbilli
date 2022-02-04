@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solicita tu Demo - Billi.pe</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.ico')  }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
     @livewireStyles
 </head>
@@ -55,7 +56,7 @@
                     </p>
                 </div>
                 <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200">
-                    Ideal for Startups and Small Companies
+{{--                    Ideal for Startups and Small Companies--}}
                 </p>
                 <ul class="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -104,7 +105,7 @@
                     </p>
                 </div>
                 <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200">
-                    Ideal for medium-size businesses to larger businesses
+{{--                    Ideal for medium-size businesses to larger businesses--}}
                 </p>
                 <ul class="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
@@ -159,7 +160,7 @@
                     </p>
                 </div>
                 <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200">
-                    Ideal for larger and enterprise companies
+{{--                    Ideal for larger and enterprise companies--}}
                 </p>
                 <ul class="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
