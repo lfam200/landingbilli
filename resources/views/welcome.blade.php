@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solicita tu Demo - Billi.pe</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('img/favicon.ico')  }}">
+    <link rel="icon" type="image/x-icon" href="{{ secure_asset('img/favicon.ico')  }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
     @livewireStyles
 </head>
@@ -17,7 +17,7 @@
             @livewire('form-contact')
             <div class="w-full space-y-5 md:w-3/5 md:pl-16">
               <div class="flex justify-center">
-                <img src="{{ asset('img/logo_billi.png')}}" alt="" class="w-16 md:w-32 lg:w-48 object-center">
+                <img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-16 md:w-32 lg:w-48 object-center">
               </div>
 
                 <!-- <p class="font-medium text-black-400 uppercase">Building Businesses</p> -->
