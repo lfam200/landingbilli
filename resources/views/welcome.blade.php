@@ -18,7 +18,7 @@
               <div class="flex justify-center">
                 <img src="{{ asset('img/logo_billi.png')}}" alt="" class="w-16 md:w-32 lg:w-48 object-center">
               </div>
-                
+
                 <!-- <p class="font-medium text-black-400 uppercase">Building Businesses</p> -->
                 <h2 class="text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
                     Factura, administra y gana tiempo.
@@ -207,5 +207,18 @@
 <!-- AlpineJS Library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
 @livewireScripts
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    Livewire.on('alert', () => {
+        Swal.fire({
+            // position: 'top-end',
+            icon: 'success',
+            title: 'Tus datos han sido enviados, pronto nos pondremos en contacto contigo',
+            showConfirmButton: false,
+            timer: 2500
+        })
+    })
+
+</script>
 </body>
 </html>

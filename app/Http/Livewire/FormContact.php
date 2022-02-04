@@ -23,7 +23,12 @@ class FormContact extends Component
   {
     $this->validate();
 
-//    dd($this->message);
-    Mail::to('soporte@billi.pe')->cc('cristhian.lopez@billi.pe')->send(new Contacto($this->name,$this->email,$this->phone,$this->message));
+    $this->emit('alert');
+
+    Mail::to('soporte@billi.pe')
+        ->cc('cristhian.lopez@billi.pe')
+        ->send(new Contacto($this->name,$this->email,$this->phone,$this->message));
+
+    $this->reset();
   }
 }
