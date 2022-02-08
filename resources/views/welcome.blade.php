@@ -20,15 +20,8 @@
     </h2>
     <p class="md:hidden text-xl text-gray-600 mb-16">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>
     <div class="max-w-5xl mx-auto">
-        <div class="flex flex-col items-center md:flex-row">
-{{--            <div class="w-full space-y-5 md:w-2/5 md:pl-16 ">--}}
-{{--                <h2 class="hidden md:flex text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">--}}
-{{--                    Factura, administra y gana tiempo.--}}
-{{--                </h2>--}}
-{{--                <p class="hidden md:flex text-xl text-gray-600 md:pr-16">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>--}}
-{{--            </div>--}}
-
-            <div class="w-full space-y-5 md:w-3/5 md:pl-16 ">
+        <div class="flex flex-col md:flex-row">
+            <div class="w-full space-y-5 md:w-3/5 md:pl-16">
               <div class="hidden md:flex justify-start mb-16">
                 <img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-16 md:w-32 lg:w-48 object-center">
               </div>
