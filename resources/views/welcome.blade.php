@@ -12,23 +12,32 @@
 
 <!-- Section 1 -->
 <section class="w-full px-8 py-16 bg-yellow-400 xl:px-8">
-    <div class="flex md:hidden justify-center">
+    <div class="flex md:hidden justify-center mb-6">
         <img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-32">
     </div>
+    <h2 class="md:hidden text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
+        Factura, administra y gana tiempo.
+    </h2>
+    <p class="md:hidden text-xl text-gray-600">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>
     <div class="max-w-5xl mx-auto">
         <div class="flex flex-col items-center md:flex-row">
-            @livewire('form-contact')
+{{--            <div class="w-full space-y-5 md:w-2/5 md:pl-16 ">--}}
+{{--                <h2 class="hidden md:flex text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">--}}
+{{--                    Factura, administra y gana tiempo.--}}
+{{--                </h2>--}}
+{{--                <p class="hidden md:flex text-xl text-gray-600 md:pr-16">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>--}}
+{{--            </div>--}}
+
             <div class="w-full space-y-5 md:w-3/5 md:pl-16 ">
-              <div class="hidden md:flex justify-center">
+              <div class="hidden md:flex justify-start mb-16">
                 <img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-16 md:w-32 lg:w-48 object-center">
               </div>
-
-                <!-- <p class="font-medium text-black-400 uppercase">Building Businesses</p> -->
-                <h2 class="text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
+                <h2 class="hidden md:flex text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
                     Factura, administra y gana tiempo.
                 </h2>
-                <p class="text-xl text-gray-600 md:pr-16">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>
+                <p class="hidden md:flex text-xl text-gray-600 md:pr-16">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>
             </div>
+            @livewire('form-contact')
         </div>
     </div>
 </section>
