@@ -12,13 +12,13 @@
 
 <!-- Section 1 -->
 <section class="w-full px-8 py-16 bg-yellow-400 xl:px-8">
-    <div class="flex md:hidden justify-center mb-6">
-        <img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-32">
+    <div class="flex md:hidden justify-center mb-16">
+        <img src="{{ asset('img/logo_billi.png')}}" alt="" class="w-32">
     </div>
     <h2 class="md:hidden text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
         Factura, administra y gana tiempo.
     </h2>
-    <p class="md:hidden text-xl text-gray-600">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>
+    <p class="md:hidden text-xl text-gray-600 mb-16">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>
     <div class="max-w-5xl mx-auto">
         <div class="flex flex-col items-center md:flex-row">
 {{--            <div class="w-full space-y-5 md:w-2/5 md:pl-16 ">--}}

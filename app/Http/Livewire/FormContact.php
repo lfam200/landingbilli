@@ -8,10 +8,12 @@ use App\Mail\Contacto;
 
 class FormContact extends Component
 {
-  public $name = '',$email = '',$phone = '',$message = '';
+  public $name = '',$email = '',$phone = '',$message = '',$ruc='',$plan='';
 
   protected $rules = [
     'name' => 'required',
+    'ruc' => 'required',
+    'plan' => 'required',
     'email' => 'required|email',
 ];
   public function render()
@@ -27,7 +29,7 @@ class FormContact extends Component
 
     Mail::to('soporte@billi.pe')
         ->cc('cristhian.lopez@billi.pe')
-        ->send(new Contacto($this->name,$this->email,$this->phone,$this->message));
+        ->send(new Contacto($this->name,$this->email,$this->phone,$this->message,$this->ruc,$this->plan));
 
     $this->reset();
   }

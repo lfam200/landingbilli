@@ -11,19 +11,21 @@ class Contacto extends Mailable
 {
     use Queueable, SerializesModels;
 
-    private $name,$email,$phone,$text;
+    private $name,$email,$phone,$text,$ruc,$plan;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($name, $email, $phone, $text)
+    public function __construct($name, $email, $phone, $text, $ruc,$plan)
     {
         //
         $this->name = $name;
         $this->email = $email;
         $this->phone = $phone;
         $this->text = $text;
+        $this->ruc = $ruc;
+        $this->plan = $plan;
     }
 
     /**
@@ -40,7 +42,9 @@ class Contacto extends Mailable
                       'name' => $this->name,
                       'email' => $this->email,
                       'phone'  => $this->phone,
-                      'text' => $this->text
+                      'text' => $this->text,
+                      'ruc' => $this->ruc,
+                      'plan' => $this->plan,
                   ]);
     }
 }
