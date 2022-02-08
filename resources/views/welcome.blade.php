@@ -13,9 +13,9 @@
 <!-- Section 1 -->
 <section class="w-full px-8 py-16 bg-yellow-400 xl:px-8">
     <div class="flex md:hidden justify-center mb-16">
-        <img src="{{ asset('img/logo_billi.png')}}" alt="" class="w-32">
+        <img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-32">
     </div>
-    <h2 class="md:hidden text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">
+    <h2 class="md:hidden text-2xl mb-4 font-extrabold text-black sm:text-3xl md:text-5xl">
         Factura, administra y gana tiempo.
     </h2>
     <p class="md:hidden text-xl text-gray-600 mb-16">Con Billi crearás tus comprobantes de venta electrónicos de forma fácil y rápida, además de ayudarte a tener todo listo para cumplir con la SUNAT</p>
