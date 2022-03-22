@@ -13,7 +13,7 @@
 <!-- Section 1 -->
 <section class="w-full px-8 py-16 bg-yellow-400 xl:px-8">
     <div class="flex md:hidden justify-center mb-16">
-        <img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-32">
+        <a href="https://billi.pe"><img src="{{ secure_asset('img/logo_billi.png')}}" alt="" class="w-32"></a>
     </div>
     <h2 class="md:hidden text-2xl mb-4 font-extrabold text-black sm:text-3xl md:text-5xl">
         Factura, administra y gana tiempo.
